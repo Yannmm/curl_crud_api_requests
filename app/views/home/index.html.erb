@@ -1,0 +1,4 @@
+<h1>this is home page</h1>
+<%#= @body_json.first['title'] %>
+<% first_post = OpenStruct.new(@body_json.first) %>
+<%= first_post.title %>
